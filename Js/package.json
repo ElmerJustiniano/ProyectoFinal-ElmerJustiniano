@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final-elmer-justiniano-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElmerJustiniano/PreEntrega2-Justiniano.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElmerJustiniano/PreEntrega2-Justiniano/issues"
+  },
+  "homepage": "https://github.com/ElmerJustiniano/PreEntrega2-Justiniano#readme"
+}

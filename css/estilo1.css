@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
+}
+body header h1 {
+  font-size: 2.5rem;
+  color: #118aec;
+  text-align: center;
+  justify-content: center;
+}
+body header nav {
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #5ebddd;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+body header nav img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  align-items: center;
+}
+body header nav img:hover {
+  border-radius: 20px;
+}
+body header nav .menu {
+  font-size: 1.25rem;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  align-items: right;
+}
+body header nav .menu a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+body header nav .menu a:hover {
+  background-color: black;
+  color: lightblue;
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main h4 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  opacity: 0.6;
+}
+main h4:hover {
+  opacity: 1;
+  border: #118aec solid 2px;
+  transform: scale(1.1, 1.1);
+}
+main img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: double #118aec 2px;
+  opacity: 0.6;
+}
+main img:hover {
+  opacity: 1;
+  border: #118aec solid 5px;
+  transform: translate(10px, 10px);
+}
+
+footer {
+  background-color: black;
+}
+footer nav {
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #5ebddd;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+footer nav .menu2 {
+  font-size: 1.25rem;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  align-items: right;
+}
+footer nav .menu2 a {
+  color: black;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+footer nav .menu2 a:hover {
+  background-color: black;
+  color: lightblue;
+  border-radius: 20px;
+}
+footer nav img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  align-items: center;
+}
+footer nav img:hover {
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=estilo1.css.map */
